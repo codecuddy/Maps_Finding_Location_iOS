@@ -14,6 +14,7 @@
 		AF7943871FF4A3B5004114CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7943851FF4A3B5004114CD /* LaunchScreen.storyboard */; };
 		AF7943921FF4A3B5004114CD /* Finding_User_LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7943911FF4A3B5004114CD /* Finding_User_LocationTests.swift */; };
 		AF79439D1FF4A3B5004114CD /* Finding_User_LocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF79439C1FF4A3B5004114CD /* Finding_User_LocationUITests.swift */; };
+		AF7943AC1FF4A4C9004114CD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7943AB1FF4A4C8004114CD /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AF7943981FF4A3B5004114CD /* Finding_User_LocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Finding_User_LocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF79439C1FF4A3B5004114CD /* Finding_User_LocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finding_User_LocationUITests.swift; sourceTree = "<group>"; };
 		AF79439E1FF4A3B5004114CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF7943AB1FF4A4C8004114CD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF7943AC1FF4A4C9004114CD /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				AF7943901FF4A3B5004114CD /* Finding_User_LocationTests */,
 				AF79439B1FF4A3B5004114CD /* Finding_User_LocationUITests */,
 				AF79437A1FF4A3B5004114CD /* Products */,
+				AF7943AA1FF4A4C8004114CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				AF79439E1FF4A3B5004114CD /* Info.plist */,
 			);
 			path = Finding_User_LocationUITests;
+			sourceTree = "<group>";
+		};
+		AF7943AA1FF4A4C8004114CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF7943AB1FF4A4C8004114CD /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

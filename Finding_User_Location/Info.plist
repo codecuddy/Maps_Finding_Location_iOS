@@ -41,5 +41,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>need user location all the time, even in background</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>need the user location right now</string>
 </dict>
 </plist>
